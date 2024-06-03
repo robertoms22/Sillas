@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; 
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    min-height: 5vh;
+    background-color: white;
+    padding: 0 3rem 0 3rem;
+  
+    
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.header .nav .ul{
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+    
+}
+
+.a{
+    color: black;
+    font-size: .8125rem;
+    font-family: "Raleway", sans-serif;
+    font-weight:bolder;
+    letter-spacing: 3px;
+}
+
+.a--amarillo{
+    color: #E6AE48; 
+}
+
+.a:hover{
+    color: #E6AE48;
+}
+
+.li{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.main{
+    padding-top: 10vh;
+}
+
+.div{
+    width: 100%;
+}
+
+.producto{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div .producto{
+    display: flex;
+    
+}
+.div-img{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    width: 50vw;
+}
+
+.h2{
+    font-size: 2.125rem;
+    font-family: "Raleway", sans-serif;
+    font-weight:bolder;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    color: #393939;
+}
+
+.p{
+    width:50%;
+    color: #393939;
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 1.25rem;
+    
+}
+
+.seccion-amarilla{
+    background-color: #E6AE48;
+    flex-direction: row-reverse;
+    
+}
+
+.texto-amarillo{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: end;
+    text-align: right;
+}
+
+.h2--blanco , .p--blanco{
+    color: white;
+}
+
+.button{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button-amarillo{
+    color: white;
+}
+
+.button-amarillo:hover{
+    color:#E6AE48;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button-blanco{
+    color: #E6AE48;
+}
+
+.button-blanco:hover{
+    color: white;
+    background-color: #E6AE48;
+    transition: 0.5s;
+}
+
+.footer{
+    width: 100%;
+    min-height:100vh;
+    background-color: #393939;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .ul{
+    display: flex;
+    flex-direction: row;
+    gap: .625rem;
+}
+
+.h3{
+    margin-bottom: 1rem;
+}
+
+.span{
+    margin-bottom: 6.25rem;
+    color: #E6AE48;
+    margin-bottom: 5rem;
+}
+
+.button{
+    padding: 15px 35px 15px 35px;
+    border:solid 2px #E6AE48;
+    background-color: transparent;
+    width: 200px;
+}
+
+.button-amarillo{
+    border:solid 2px white;
+
+}
+
+.bi:hover{
+    fill:#E6AE48;
+    transition: 0.5s;
+}
+
